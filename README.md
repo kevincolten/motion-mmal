@@ -1,11 +1,14 @@
 # motion-mmal
 
-## To download from the command line
-`curl -LOk https://github.com/kevincolten/motion-mmal/archive/master.zip`
+## Installation
+1. `curl -LOk https://github.com/kevincolten/motion-mmal/archive/master.zip`
+2. `unzip master.zip`
+3. `cd motion-mmal-master/`
+4. `chmod 777 ./motion`
+5. `chmod -x ./motion`
 
-* you must use `https://`
-* you must use `-L` to follow redirects
-* you must use `-k` if your certificate file is missing
+## Run
+6. `./motion -c motion-mmalcam-both.conf`
 
-## Resources:
-* https://stackoverflow.com/questions/16261100/cant-download-github-project-with-curl-command
+## Resources
+1. [Motion MMAL](http://wiki.raspberrytorte.com/index.php?title=Motion_MMAL)
